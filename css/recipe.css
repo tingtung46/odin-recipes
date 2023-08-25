@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font: 18px/1.55 'Montserrat', sans-serif;
+    color: rgb(19, 42, 59);
+}
+
+/* Typography */
+h1 {
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* Image */
+img {
+    width: 600px;
+    height: auto;
+}
