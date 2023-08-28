@@ -12,14 +12,46 @@ h1 {
     font-size: 32px;
     font-weight: 800;
     text-align: center;
+    max-width: 1200px;
 }
 
 a {
     text-decoration: none;
     font-weight: 700;
-    color: rgb(159, 118, 87);
+    color: rgb(255, 255, 255);
 }
 
-a :hover {
+a:hover {
     color: rgb(60, 58, 71);
+}
+
+/* Container */
+.recipes {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* Card */
+.card {
+    width: 400px;
+    height: auto;
+    padding: 18px;
+    background-color: rgb(159, 118, 87);
+    display: inline-block;
+    margin: 4px;
+    border-radius: 10px;
+}
+
+.card img {
+    max-width: 250px;
+    height: auto;
+    display: block;
+    margin: 18px auto;
+    border-radius: 4px;
+}
+
+.card h2 {
+    text-align: center;
+    font-size: 24px;
+    margin: 0;
 }
